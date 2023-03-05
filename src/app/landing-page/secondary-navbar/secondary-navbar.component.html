@@ -1,15 +1,14 @@
-<div class="main">
-    <div class="navbar">
-      <div class="icon">
-        <h2 class="logo">RealEstate</h2>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href=""><button>Sign In</button></a></li>
-        </ul>
-      </div>
+<div class="base-container">
+  <nav class="secondary-navbar">
+    <div class="logo">
+      <p>PS</p>
     </div>
-  </div>
+    <div class="nav-links">
+      <a routerLink="/home" fragment="home">Home</a>
+      <a routerLink="/services" fragment="services">Services</a>
+      <a routerLink="/about" fragment="about">About</a>
+      <a routerLink="/contact" fragment="contact">Contact Us</a>
+      <a mat-raised-button routerLink="/" class="sign-in-button">Sign In</a>
+    </div>
+  </nav>
+</div>

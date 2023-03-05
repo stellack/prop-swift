@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './shared/modules/material.module';
-import { NgxLoadingModule } from 'ngx-loading';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,7 +18,6 @@ import { NgxLoadingModule } from 'ngx-loading';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxLoadingModule,
     MaterialModule
   ],
   providers: [],
