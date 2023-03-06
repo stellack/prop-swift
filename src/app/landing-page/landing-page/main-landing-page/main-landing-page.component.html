@@ -1,30 +1,66 @@
 <app-secondary-navbar></app-secondary-navbar>
 <div class="landing-page-container">
     <section id="home" #home>
-    <div class="section-container1">
+    <!-- <div class="section-container1">
         <h1>Prop Swift</h1>
         <p>A property Management system that helps you track property Rent, Receipts Details, Payment Details and Expenses.</p>
-        <form class="example-form">
-            <mat-form-field class="example-full-width">
-            <span matPrefix> </span>
-            <input type="text" matInput placeholder="Search" name= "search" [(ngModel)]= "search">
-            <button mat-raised-button class="search-button">Search</button>
-            </mat-form-field>
-            <br/>
-            {{search}}
+        <form (submit)="searchProperty()">
+          <input type="text" name="propertyType" placeholder="Nairobi, Kenya">
+          <button type="submit">Search</button>
         </form>
+    </div> -->
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <div class="background-image"></div>
+      <div class="content">
+        <h1>Prop Swift</h1>
+        <p>A property Management system that helps you track property Rent, Receipts Details, Payment Details and Expenses.</p>
+        <div class="search_property">
+          <div fxLayout="row" fxLayoutAlign="start start" class="form-design">
+          <div appearance="outline" fxFlex="80">
+            <input matInput placeholder="Nairobi, Kenya" class="search_input">
+          </div>
+          <button mat-raised-button class="search_btn" fxFlex="20">Search</button>
+        </div>
+        </div>
+        
+          <!-- <div class="search_property">
+            <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+              <div fxFlex="70">
+                <input class="search_input" type="text" id="search_input"
+                        placeholder="Nairobi, Kenya">
+              </div>
+              <div fxFlex="20">
+                <button mat-button class="search_btn" id="search_btn"
+                        (click)="searchProperty()">Search
+                </button>
+              </div>
+            </div>
+          </div>
+         -->
+        
+      </div>
     </div>
     
+  </section>
+  <section id="services" #services>
+    <div class="row1">
+      <h1>Discover how we can help you</h1>
+    </div>
+    <div class="row2">
+      <a mat-button>Managing</a>
+      <a mat-button>Renting</a>
+      <a mat-button>Tracking</a>
+    </div>
+    <div>
+
+    </div>
+    
+    <p>Check out our services.</p>
   </section>
   
   <section id="about" #about>
     <h1>About Section</h1>
     <p>Learn more about our company.</p>
-  </section>
-  
-  <section id="services" #services>
-    <h1>Services Section</h1>
-    <p>Check out our services.</p>
   </section>
   
   <section id="contact" #contact>

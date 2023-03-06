@@ -4,8 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './shared/modules/material.module';
+
 
 
 @NgModule({
@@ -16,9 +18,11 @@ import { MaterialModule } from './shared/modules/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    // FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

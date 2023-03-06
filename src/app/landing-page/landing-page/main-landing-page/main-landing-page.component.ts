@@ -12,5 +12,8 @@ export class MainLandingPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  searchProperty(){
+
+  }
 
 }

@@ -16,7 +16,7 @@
   }
   a{
     text-decoration: none;
-    color: white;
+    color: $white-color;
     font-size: 18px;
     padding: 8px;
   }
@@ -37,13 +37,15 @@
   //   align-items: center;
   // }
   .logo {
-    color: $white-color;
-    font-size: 40px;
-    font-weight: 100;
     font-family: Arial;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
+}
+.logo h1{
+   color: $white-color;
+    font-size: 40px;
+    font-weight: 700;
 }
 
   
