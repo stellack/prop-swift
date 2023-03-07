@@ -10,6 +10,12 @@
 .search-button{
     color: $white-color;
     background-color: $purple-color-2;
-    padding: 30px;
+    padding-inline: 30px;
+    padding-block: 20px;
     border: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2px;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }

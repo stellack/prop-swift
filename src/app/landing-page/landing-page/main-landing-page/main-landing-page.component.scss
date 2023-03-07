@@ -29,7 +29,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../../../assets/img/Rent\ img.png');
+    background-image: url('../../../../assets/img/landing\ pg.png');
     background-size: cover;
     opacity: 0.5;
     z-index: -1;
@@ -61,10 +61,128 @@
   button {
     margin-left: 1em;
   }
-  #services h1{
-    margin-left: 75px;
-    color: black;
-    font-size: 30px;
-    font-weight: 700px;
+  //Services section
+  #services {
+    background-color: $brown-color;
+
+  }
+  
+  #services h1 {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 20px;
+    padding: 0 !important;
+  }
+  .container {
+    padding: 10px 0;
+}
+  
+  .btn-group {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  .service-box {
+    // border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    
+  }
+  .row div {
+    background-color: $white-color;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: none;
+}
+
+.row div img {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.row div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+// .row div a {
+//     text-decoration: none;
+//     color: white;
+//     font-size: 20px;
+//     margin-top: 20px;
+//     display: inline-block;
+// }
+.row div p {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    height: 20px;
+}
+  .col-md-4{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+  }
+  .more-btn{
+    text-align: center;
+    cursor: pointer;
+  }
+  #about{
+    background-image: url('../../../../assets/img/About.png');
+    // height: 100vh;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  #about .container{
+    margin-inline: 75px;
+    height: 100vh;
+    // margin: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+  }
+  #about h1{
+    color: $white-color;
+    
+    // margin-inline: 30px;
+  }
+  #about .title{
+ font-size: 20px;
+  }
+  #about .section-description{
+    font-size: 30px;
+    line-height: 40px;
+    word-spacing: 10px;
+  }
+  #about .container p{
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 8px;
+    width: 50%;
+    margin-inline: 75px;
   }
